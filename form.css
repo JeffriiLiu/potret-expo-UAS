@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+html,body{
+    background: #92929b;
+    background-image: url("gambar\ street.jpg");
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 900px;
+	height: 500px;
+	margin-top: -250px;
+	margin-left: -440px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	/* background: linear-gradient(to top right, rgba(49, 37, 212, 0.646) 0%, rgba(218, 155, 225, 0.628) 100%); */
+	color: #333;
+	font-family: "Open Sans", Helvetica, sans-serif;
+    text-align: center;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 900px;
+	height: 560px;
+	border-radius: 3px;
+	box-shadow: 8px 10px 15px 0 rgba(0, 0, 0, 0.2);
+	background: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.title {
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #999;
+	text-align: center;
+}
+
+h1 {
+	font-size: 16px;
+	font-weight: 300;
+	color: #666;
+}
+
+.dropzone {
+	width: 100px;
+	height: 80px;
+	border: 1px dashed #999;
+	border-radius: 3px;
+	text-align: center ;
+    margin-left: 18px;
+    margin-bottom: 10PX;
+
+}
+
+.upload-icon {
+	margin: 25px 2px 2px 2px;
+}
+
+.upload-input {
+	position: relative;
+	top: -62px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.btn {
+	display: block;
+	width: 140px;
+	height: 40px;
+	background: rgb(98, 157, 209);
+	color: #fff;
+	border-radius: 3px;
+	border: 0;
+	box-shadow: 0 3px 0 0 rgb(255, 255, 255);
+	transition: all 0.1s ease-in-out;
+	font-size: 14px;
+}
+
+.btn:hover {
+	background: rgb(129, 41, 218);
+	box-shadow: 0 3px 0 0 rgb(6, 6, 6);
+}
+
+.home:hover{
+    background-color: rgb(98, 157, 209) !important;
+    color: black !important;
+    border-radius: 4px;
+    padding: 3px;
+
+}
+
+.home{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bungkus{
+	border: 5px solid rgb(154, 4, 4) !important;
+	padding: 400px 300px 200px 300px!important;
+}
+
+.text1{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 16px;
+	line-height: 8px;
+}
+

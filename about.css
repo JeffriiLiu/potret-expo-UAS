@@ -1,0 +1,66 @@
+.border {
+  margin: auto;
+  border-style: ridge;   
+}
+#corner {
+    border-radius: 35px;
+    border: 2px solid #2a2d27;
+    padding:0px; 
+    width: 550px;
+    height: 550px;
+    position: center;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+.border > img {
+  width: 100px;
+  height: 200px;
+}
+
+.border > h1 {
+  text-align: center;
+  border-bottom: 3px black;
+}
+
+.border > p {
+  text-align: left;
+}
+
+img.gambar{
+  float:center;
+  padding: 0 0 3;
+  display: block;
+  width: auto;
+}
+
+.copyright {
+  color: rgb(37, 33, 33);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 48px;
+  margin-bottom: 0; 
+}
+
+h5 {
+  text-align: center;
+}
+
+.copyright > ul > li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.gambar{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.line{
+  padding-left: 22px;
+  margin-right: 22px;
+  display: flex;
+  justify-content: center;
+}
+
